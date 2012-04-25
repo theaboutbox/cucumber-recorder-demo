@@ -22,6 +22,10 @@ end
 
 gem 'jquery-rails'
 
+group :development, :test do
+  gem 'pry-nav'
+end
+
 group :test do
   gem 'cucumber-rails'
   gem 'database_cleaner'
