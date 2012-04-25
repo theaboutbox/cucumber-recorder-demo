@@ -22,6 +22,13 @@ end
 
 gem 'jquery-rails'
 
+group :test do
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
+  gem 'capybara'
+  gem 'headless', :git => 'https://github.com/quantiverge/headless.git'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
