@@ -8,5 +8,5 @@ Dependencies
 ------------
 
 * xvfb
-* ffmpeg
+* ffmpeg, preferably with x264. Make sure you include --enable-x11grab
 * A browser that works with Capybara/Selinium (Firefox)
